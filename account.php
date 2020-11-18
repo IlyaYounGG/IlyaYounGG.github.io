@@ -1,4 +1,9 @@
-<?php
-header('Location: http://ilyavlasov.me/403.html/');
-exit;
-?>
+echo '<HTML>
+     <HEAD>
+     <TITLE>ERROR [INVALID ACCOUNT]</TITLE>
+     <META HTTP-EQUIV="Refresh" CONTENT="0.5; URL=403.html">
+     </HEAD>
+     <BODY>
+     403
+     </BODY>
+     </HTML>';
